@@ -4,8 +4,8 @@ YELLOW = "yellow"
 
 Primary_Colour = ("red,blue,yellow")
 
-colour1=input("Please enter colour 1 ")
-colour2=input("Please enter colour 2 ")
+colour1=input("Please enter colour 1 ").lower()
+colour2=input("Please enter colour 2 ").lower()
 
 if (colour1 == "red" or "blue" or "yellow"):
     print()
